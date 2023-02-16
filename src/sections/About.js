@@ -149,6 +149,7 @@ const About = () => {
         <a
           href="https://store.sumup.com/en-GB/product-selection/card_reader.bp55_bundle_printer?cc_only=true&_gl=1*1to4h83*_ga*MzI2OTQwNDAyLjE2NzQ0OTcxNzU.*_ga_4VRZNY7N9G*MTY3NDUwNzkxNS4zLjEuMTY3NDUwNzk3Ny4wLjAuMA..&device=desktop&_ga=2.203460304.1521689276.1674497175-326940402.1674497175&nextInternalLocale=en-GB"
           target="_blank"
+          rel="noopener noreferrer"
           className="mr-2 "
         >
           To learn more, visit the official site.
