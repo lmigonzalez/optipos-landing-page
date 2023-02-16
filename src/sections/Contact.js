@@ -56,7 +56,7 @@ const Contact = () => {
         viewport={{ once: true, amount: 0.8 }}
         transition={{ delay: 1 }}
       >
-        Les't Talk
+        Contact Us
       </motion.h2>
       <motion.form
         initial={{ y: 100, opacity: 0 }}
