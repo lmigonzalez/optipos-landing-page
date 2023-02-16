@@ -1,5 +1,6 @@
 import Head from 'next/head';
 
+import HamburgerMenu from '@/components/HamburgerMenu';
 import Navbar from '@/sections/Navbar';
 import Hero from '@/sections/Hero';
 import About from '@/sections/About';
@@ -19,6 +20,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`bg-dark min-h-screen w-full px-8 relative scroll-smooth`}>
+        <HamburgerMenu/>
         <Navbar />
         <Hero />
         <About />
