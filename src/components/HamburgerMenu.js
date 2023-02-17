@@ -9,7 +9,7 @@ const HamburgerMenu = () => {
     setMenuActive(!menuActive);
   }
 
-  function closeMenu(){
+  function closeMenu() {
     setMenuActive(false);
   }
 
@@ -27,7 +27,16 @@ const HamburgerMenu = () => {
           }`}
         ></div>
         {!menuActive && (
-          <div className={`w-7 h-1 bg-purple my-1 rounded`}></div>
+          <AnimatePresence>
+            <motion.div
+              key="menu"
+              initial={{x: 100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 0.5, ease: 'easeOut' }}
+              exit={{ x: -100, opacity: 0 }}
+              className={`w-7 h-1 bg-purple my-1 rounded`}
+            ></motion.div>
+          </AnimatePresence>
         )}
 
         <div
@@ -41,7 +50,7 @@ const HamburgerMenu = () => {
 
       <AnimatePresence>
         {menuActive && (
-          <div onClick={closeMenu} className=' w-screen h-screen'>
+          <div onClick={closeMenu} className=" w-screen h-screen">
             <motion.nav
               key="status"
               initial={{ x: '100%', opacity: 0 }}
