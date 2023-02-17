@@ -120,7 +120,7 @@ const Contact = () => {
         <div className="flex justify-end mt-2 text-xl">
           <button
             type="submit"
-            className="bg-purple rounded py-2 w-48 hover:scale-95 transform transition "
+            className="bg-purple rounded py-2 w-full lg:w-48 hover:scale-95 transform transition "
           >
             Submit
           </button>

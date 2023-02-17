@@ -34,12 +34,12 @@ const About = () => {
         accessibility, and other tools to help companies to run more
         efficiently.
       </motion.p>
-      <div className="flex justify-center items-center mt-16">
+      <div className="flex flex-col lg:flex-row justify-center items-center mt-16">
         <motion.div
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           viewport={{ once: true, amount: 0.8 }}
-          className="w-2/5"
+          className="lg:w-2/5"
         >
           <Image
             src="/card-reader.png"
@@ -49,7 +49,7 @@ const About = () => {
           />
         </motion.div>
 
-        <div className="text-left w-3/5">
+        <div className="text-left lg:w-3/5">
           <motion.h2
             initial={{ y: -100, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}

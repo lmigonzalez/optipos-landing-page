@@ -38,7 +38,7 @@ const Navbar = () => {
   }, [lastScrollY]);
 
   return (
-    <div>
+    <div className='hidden md:block'>
       {' '}
       <AnimatePresence>
         {show && (
