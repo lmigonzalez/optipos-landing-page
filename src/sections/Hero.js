@@ -10,7 +10,6 @@ const Hero = () => {
       initial={{ x: -100, opacity: 0 }}
       whileInView={{ x: 0, opacity: 1 }}
       viewport={{ once: true, amount: 0.8 }}
-      transition={{ delay: 1 }}
       className=' lg:w-1/2 pr-8 text-center lg:text-start'>
 	  
         <h1 className='text-6xl font-black '>OPTIPOS</h1>
@@ -25,7 +24,7 @@ const Hero = () => {
         initial={{x:100, opacity: 0 }}
         whileInView={{x: 0, opacity: 1 }}
         viewport={{ once: true, amount: 0.8 }}
-        transition={{ delay: 1 }}
+
        className=' lg:w-1/2 lg:pl-8 flex justify-center items-center mt-12 lg:mt-0'>
         <Image src="/hero-img.png" alt="hero image" width={600} height={600} />
       </motion.div>
