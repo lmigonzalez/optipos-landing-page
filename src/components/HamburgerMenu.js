@@ -9,8 +9,12 @@ const HamburgerMenu = () => {
     setMenuActive(!menuActive);
   }
 
+  function closeMenu(){
+    setMenuActive(false);
+  }
+
   return (
-    <div className="md:hidden bg-transparent w-screen h-screen fixed top-0 left-0 z-20 pt-4 ">
+    <div className="md:hidden w-screen  fixed top-0 left-0 z-20 pt-4 ">
       <button
         onClick={openMenu}
         className="bg-white w-12 h-12 rounded-full flex justify-center items-center flex-col cursor-pointer absolute right-8 z-30"
@@ -37,7 +41,7 @@ const HamburgerMenu = () => {
 
       <AnimatePresence>
         {menuActive && (
-          <div>
+          <div onClick={closeMenu} className=' w-screen h-screen'>
             <motion.nav
               key="status"
               initial={{ x: '100%', opacity: 0 }}
