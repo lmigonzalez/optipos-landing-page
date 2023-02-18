@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import {
   BsReception4,
   BsPrinterFill,
@@ -63,9 +63,9 @@ const About = () => {
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true, amount: 0.8 }}
             transition={{ delay: 0.4 }}
-            className="flex my-4"
+            className="my-4 grid grid-flow-col"
           >
-            <div className="flex justify-center items-center object-center bg-purple rounded-[50%] h-10 w-10 text-xl p-1 ">
+            <div className="flex justify-center items-center bg-purple rounded-full h-10 w-10 text-xl p-1">
               {' '}
               <BsReception4 className="" />{' '}
             </div>
@@ -83,9 +83,9 @@ const About = () => {
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true, amount: 0.8 }}
             transition={{ delay: 0.6 }}
-            className="flex my-4"
+            className="grid grid-flow-col my-4"
           >
-            <div className="flex justify-center items-center object-center bg-purple rounded-[50%] h-10 w-10 text-xl p-1 ">
+            <div className="flex justify-center items-center  bg-purple rounded-full h-10 w-10 text-xl p-1 ">
               {' '}
               <BsPrinterFill className="" />{' '}
             </div>
@@ -103,9 +103,9 @@ const About = () => {
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true, amount: 0.8 }}
             transition={{ delay: 0.8 }}
-            className="flex my-4"
+            className="grid grid-flow-col my-4"
           >
-            <div className="flex justify-center items-center object-center bg-purple rounded-[50%] h-10 w-10 text-xl p-1 ">
+            <div className="flex justify-center items-center object-center bg-purple rounded-full h-10 w-10 text-xl p-1 ">
               {' '}
               <BsFillCreditCardFill className="" />{' '}
             </div>
@@ -123,9 +123,9 @@ const About = () => {
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true, amount: 0.8 }}
             transition={{ delay: 1 }}
-            className="flex my-4"
+            className="grid grid-flow-col my-4"
           >
-            <div className="flex justify-center items-center object-center bg-purple rounded-[50%] h-10 w-10 text-xl p-1 ">
+            <div className="flex justify-center items-center object-center bg-purple rounded-full h-10 w-10 text-xl p-1 ">
               {' '}
               <BsFillCreditCard2FrontFill className="" />{' '}
             </div>

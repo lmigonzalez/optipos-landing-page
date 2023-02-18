@@ -1,8 +1,22 @@
 import React, { useState } from 'react';
 import { AiOutlineDown } from 'react-icons/ai';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 const FAQ = () => {
   const initialsQuestions = [
+    {
+      id: 4,
+      question: 'What is the cost of OPTIPOS?',
+      answer:
+        'OPTIPOS has a starting price of $999 for its basic version. However, the price may vary depending on your needs.',
+      active: false,
+    },
+    {
+      id: 5,
+      question: 'What is the monthly cost of OPTIPOS?',
+      answer:
+        'OPTIPOS is a one-time purchase that includes both the software and hardware with no recurring monthly costs. While the software includes a wide range of features, if you wish to add new functionalities in the future, there may be an additional cost.',
+      active: false,
+    },
     {
       id: 1,
       question: 'What is a POS system, and how does it work?',
@@ -20,11 +34,12 @@ const FAQ = () => {
     },
     {
       id: 3,
-      question: 'What is the cost of using your POS system software?',
+      question: 'What are the minimum requirements to use OPTIPOS?',
       answer:
-        'Provide information on pricing and any maintenance packages offered, as well as any discounts or promotions available. Make sure to emphasize the value and cost savings that your software can provide.',
+        'Optipos is a cloud-based point of sale (POS) software, which means that it runs on servers in the cloud and can be accessed by users through a web browser. To use Optipos, you need an internet connection and a device with a modern web browser, such as Google Chrome, Mozilla Firefox, or Safari.',
       active: false,
     },
+
   ];
 
   const [questions, setQuestions] = useState(initialsQuestions);

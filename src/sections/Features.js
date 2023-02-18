@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 const Features = () => {
   return (
     <section id="features">
@@ -31,10 +31,10 @@ const Features = () => {
         className="bg-gradient-to-r from-gradientPurple to-gradientDark  w-full rounded flex justify-between items-center px-4 min-h-36 mb-6 m-auto flex-col lg:flex-row py-4"
       >
         <div className="order-2 text-center lg:text-start lg:w-3/4">
-          <h3 className="text-2xl mb-2">Analytics</h3>
+          <h3 className="text-2xl mb-2">Analytical Graphs</h3>
           <p>
-            Built-in analytics feature to analyze various aspects of your
-            company, including products, customer orders, and more, to gain
+            Built-in analytics graphs to analyze various aspects of your
+            company, including products, customer, orders, and more, to gain
             insights and improve accordingly
           </p>
         </div>
@@ -69,7 +69,7 @@ const Features = () => {
         <div className="text-center lg:text-start lg:w-3/4">
           <h3 className="text-2xl mb-2">Easy Payments</h3>
           <p>
-            Our card reader/printer enables seamless and swift payment
+            The SumUp 3G card reader/printer enables seamless and swift payment
             transactions by accepting a wide range of popular payment methods.
             It also offers secure and reliable payment processing, ensuring the
             safety of your transactions.
@@ -120,7 +120,7 @@ const Features = () => {
         </div>
 
         <div className="text-center lg:text-start lg:w-3/4">
-          <h3 className="text-2xl mb-2">Control</h3>
+          <h3 className="text-2xl mb-2">Advanced Control Features</h3>
           <p>
             Control user access, ensuring that only authorized individuals can
             perform specific actions such as deleting products, customers, or
@@ -137,7 +137,7 @@ const Features = () => {
         className="bg-gradient-to-r from-gradientPurple to-gradientDark  w-full rounded flex justify-between items-center px-4 min-h-36 mb-6 m-auto flex-col lg:flex-row py-4"
       >
         <div className="order-2 text-center lg:text-start lg:w-3/4">
-          <h3 className="text-2xl mb-2">Secure</h3>
+          <h3 className="text-2xl mb-2">Ironclad Security</h3>
           <p>
             Built with security in mind, ensuring that your data is kept safe
             and only accessible to those you grant access to
@@ -172,7 +172,7 @@ const Features = () => {
         </div>
 
         <div className="text-center lg:text-start lg:w-3/4">
-          <h3 className="text-2xl mb-2">Remote</h3>
+          <h3 className="text-2xl mb-2">Fully Remote</h3>
           <p>
             With OPTIPOS, you can access your account from anywhere with an
             internet connection. It also provides a high level of security for
