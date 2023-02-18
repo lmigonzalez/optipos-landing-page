@@ -81,7 +81,7 @@ const FAQ = () => {
                 q.active
                   ? 'transition bg-gradient-to-r from-gradientPurple to-gradientDark text-white'
                   : 'transition bg-white text-purple'
-              } cursor-pointer rounded w-full p-4 my-3 min-h-12`}
+              } cursor-pointer rounded w-full p-4 mb-3 min-h-12`}
               onClick={() => handleAnswer(q.id)}
             >
               <div className="flex items-center justify-between">
