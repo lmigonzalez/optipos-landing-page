@@ -52,14 +52,14 @@ const Demo = () => {
               grant/remove permissions.
             </li>
           </ul>
-          <div className="flex justify-center items-center">
-            <div className="flex mr-4">
+          <div className="flex flex-col md:flex-row justify-center items-center">
+            <div className="flex mb-2 md:mb-0 md:mr-4">
               <p className="mr-2">
                 {' '}
                 <b className='font-semibold'>EMAIL:</b>
               </p>
               <CopyToClipboard text={'celiasmith@gmail.com'}>
-                <p className="cursor-copy">celiasmith@gmail.com</p>
+                <p className="cursor-copy hover:text-purple">celiasmith@gmail.com</p>
               </CopyToClipboard>
             </div>
             <div className="flex mr-4">

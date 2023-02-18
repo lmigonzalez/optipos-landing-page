@@ -66,6 +66,8 @@ const FAQ = () => {
       >
         Frequently Asked Questions
       </motion.h2>
+
+    
       <ul className="">
         {questions.map((q, i) => {
           return (
