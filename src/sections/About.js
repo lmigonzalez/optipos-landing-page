@@ -63,13 +63,16 @@ const About = () => {
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true, amount: 0.8 }}
             transition={{ delay: 0.4 }}
-            className="my-4 grid grid-flow-col"
+            className="my-4 flex"
           >
-            <div className="flex justify-center items-center bg-purple rounded-full h-10 w-10 text-xl p-1">
-              {' '}
-              <BsReception4 className="" />{' '}
+            <div className="">
+              <div className="flex justify-center items-center bg-purple rounded-full h-10 w-10 text-xl p-1 ">
+                {' '}
+                <BsReception4 className="" />{' '}
+              </div>
             </div>
-            <div className="ml-2">
+
+            <div className="ml-2 text-start ">
               <h3 className="font-semibold">Unlimited data</h3>
               <p>
                 Stay connected with WiFi connectivity or use the free, included
@@ -83,13 +86,16 @@ const About = () => {
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true, amount: 0.8 }}
             transition={{ delay: 0.6 }}
-            className="grid grid-flow-col my-4"
+            className="my-4 flex"
           >
-            <div className="flex justify-center items-center  bg-purple rounded-full h-10 w-10 text-xl p-1 ">
-              {' '}
-              <BsPrinterFill className="" />{' '}
+            <div>
+              <div className="flex justify-center items-center  bg-purple rounded-full h-10 w-10 text-xl p-1 ">
+                {' '}
+                <BsPrinterFill className="" />{' '}
+              </div>
             </div>
-            <div className="ml-2">
+
+            <div className="ml-2 text-start">
               <h3 className="font-semibold">Printing and charging</h3>
               <p>
                 Offer receipts and keep your reader charged with the printer and
@@ -103,13 +109,16 @@ const About = () => {
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true, amount: 0.8 }}
             transition={{ delay: 0.8 }}
-            className="grid grid-flow-col my-4"
+            className="flex my-4"
           >
-            <div className="flex justify-center items-center object-center bg-purple rounded-full h-10 w-10 text-xl p-1 ">
-              {' '}
-              <BsFillCreditCardFill className="" />{' '}
+            <div>
+              <div className="flex justify-center items-center object-center bg-purple rounded-full h-10 w-10 text-xl p-1 ">
+                {' '}
+                <BsFillCreditCardFill className="" />{' '}
+              </div>
             </div>
-            <div className="ml-2">
+
+            <div className="ml-2 text-start">
               <h3 className="font-semibold">Standalone</h3>
               <p>
                 Take payments without the need to connect your device to your
@@ -123,13 +132,16 @@ const About = () => {
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true, amount: 0.8 }}
             transition={{ delay: 1 }}
-            className="grid grid-flow-col my-4"
+            className="flex my-4"
           >
-            <div className="flex justify-center items-center object-center bg-purple rounded-full h-10 w-10 text-xl p-1 ">
-              {' '}
-              <BsFillCreditCard2FrontFill className="" />{' '}
+            <div>
+              <div className="flex justify-center items-center object-center bg-purple rounded-full h-10 w-10 text-xl p-1 ">
+                {' '}
+                <BsFillCreditCard2FrontFill className="" />{' '}
+              </div>
             </div>
-            <div className="ml-2">
+
+            <div className="ml-2 text-start">
               <h3 className="font-semibold">Major payment acceptance</h3>
               <p>
                 Accept all major payment types from chip &amp; PIN and

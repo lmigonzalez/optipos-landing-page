@@ -26,7 +26,7 @@ const Hero = () => {
           </button>
           <button
             onClick={() => router.push('#demo')}
-            className="rounded border-2 border-purple py-2 w-52 hover:scale-95 transform transition"
+            className="rounded border-2 border-purple py-2 w-52 hover:scale-95 hover:bg-white hover:text-black hover:border-none transform transition"
           >
             Demo
           </button>
